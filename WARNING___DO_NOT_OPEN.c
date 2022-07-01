@@ -12,13 +12,13 @@ int main()
         printf("\nK timi stri hau yaa purus?\nENTER '1' for male and '0' for female : \n");
         scanf("%d",&a);
         if(a==1){
-            printf("Tro Umer bhan muzi : ");
+            printf("Tro Umer bhan  : ");
             scanf("%d",&age);
             if(age>30){
                 printf("\ninsurance liye rani k garxas..budheskal ni laesakyo..thopda ni tei kuchya tin jstai xa.\n\n\n");
             }
             else{
-                printf("\nVhag laude 30 barsa katya xaina insurance lina aauxa..chala jaa bsdk.\n\n\n");
+                printf("\nVhag 30 barsa katya xaina insurance lina aauxa..chala jaa.\n\n\n");
             }
         }
         else if(a==0){
@@ -32,10 +32,10 @@ int main()
             }
         }
         else{
-            printf("\n\ntalai kutai kutai khana man laa ho muzi..0 ya 1 madhya eauta thich vanya suninas.\n\n\n");
+            printf("\n\ntalai kutai kutai khana man laa ho..0 ya 1 madhya eauta thich vanya suninas.\n\n\n");
         }
     }
     else{
-        printf("\n\n\nMuzi Khuru khuru 1 ya 0 thich na lavdey...batho kina banxas.\n\n\n");
+        printf("\n\n\nMuzi Khuru khuru 1 ya 0 thich na ...batho kina banxas.\n\n\n");
     }
 }
